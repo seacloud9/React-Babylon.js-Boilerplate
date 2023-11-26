@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@screens": ["components/Screens"],
+      "@screens/*": ["components/Screens/*"],
+      "@utils": ["utils"],
+      "@utils/*": ["utils/*"],
+      "@store": ["store"],
+      "@hooks": ["hooks"],
+      "@hooks/*": ["hooks/*"],
+      "@store/*": ["store/*"],
+      "@babylon": ["components/Babylon"],
+      "@babylon/*": ["components/Babylon/*"]
+    }
+  }
+}
