@@ -33,12 +33,15 @@ Scripts are provided for common development tasks such as starting the developme
 
 This boilerplate aims to provide a foundation for creating React applications with Babylon.js for 3D graphics and interactions, along with the necessary tools for testing and code quality. Developers can use it as a starting point for building immersive and interactive web experiences.
 
-### `yarn format:fix`
-Auto fixes more formating issue with prettier
-
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn lint`
+Utilizes tsc --noEmit && eslint src/**/*.ts{,x}
+
+### `yarn format:fix`
+Auto fixes more formating issue with prettier
 
 ### `yarn start`
 
@@ -47,6 +50,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `yarn start-https`
+Runs the app in the development mode and utilizes https.\
+Open [https://localhost:3000](httsp://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
 
 ### `yarn test`
 
@@ -62,6 +73,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn build:production`
+
+Creates a build but strips out js maps, compress and obfuscates, utilizes brotli compression is configured here `craco.config.js` within the production settings you can modify them as you like. 
 
 ### `yarn eject`
 
