@@ -4,6 +4,8 @@
 
 This package is a boilerplate for a React project that integrates Babylon.js, a powerful 3D rendering engine for the web. The boilerplate includes dependencies for Babylon.js and related modules, such as Babylon GUI components, loaders, materials, and serializers. It also incorporates testing libraries, TypeScript for type-safe JavaScript, and various development tools.
 
+Try It on Codesandbox [here!](https://codesandbox.io/p/github/seacloud9/React-Babylon.js-Boilerplate/main)
+
 ## Key Features and Dependencies:
 
 - **React and ReactDOM:** The core libraries for building user interfaces in React.
