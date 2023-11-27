@@ -59,6 +59,7 @@ export const SceneBabylon = (props: any) => {
   useEffect(() => {
     if (!scene) return;
     if (isDebug && !hasInit) {    
+      console.log("DEBUG MODE IS RUNNING \n please refer to readme for settings");
       (window as any).scene = scene;
       Inspector.Show(scene, {
         embedMode: false,
