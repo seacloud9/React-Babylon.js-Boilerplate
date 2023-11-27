@@ -1,5 +1,7 @@
 # React Babylon.js Boilerplate
 
+![React Babylon.js Graphic](readme-babylonjs-react-graphic.gif)
+
 This package is a boilerplate for a React project that integrates Babylon.js, a powerful 3D rendering engine for the web. The boilerplate includes dependencies for Babylon.js and related modules, such as Babylon GUI components, loaders, materials, and serializers. It also incorporates testing libraries, TypeScript for type-safe JavaScript, and various development tools.
 
 ## Key Features and Dependencies:
