@@ -6,6 +6,13 @@ This package is a boilerplate for a React project that integrates Babylon.js, a 
 
 Try It on Codesandbox [here!](https://codesandbox.io/p/github/seacloud9/React-Babylon.js-Boilerplate/main)
 
+`/.env` file has REACT_APP_IS_DEBUG=true because of this setting you have babylonJS scene available via the window object and editor / debug panels open. Be sure uncomment this within the `.gitignore`
+
+```
+# secrets and environment variables 
+# .env
+```
+
 ## Key Features and Dependencies:
 
 - **React and ReactDOM:** The core libraries for building user interfaces in React.
